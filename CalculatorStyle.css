@@ -1,3 +1,63 @@
-﻿body
-{
+﻿*, html, body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+#topRow {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    font-size: 50px;
+}
+#git-logo{
+    color: #030303;
+    font-size: 50px;
+    display: inline;
+}
+
+#git-logo:hover{
+    color: aqua;
+}
+
+section{
+    margin-left:auto;
+    margin-right: auto;
+    width: 50vh;
+    justify-content: center;
+    background-color: dimgray;
+    padding: 15px;
+}
+
+#display {
+    background-color: #F3F3F3;
+    text-align: right;
+}
+
+#display-value{
+    padding-right: 5px;
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-grow: 0;
+}
+
+
+.function, .arithmetic, .number{
+    background-color: #F7F7F7;
+    padding: 8%;
+    font-weight: bold;
+    border-color: black;
+}
+
+.function:hover, .arithmetic:hover, .number:hover{
+    background-color: aqua;
 }

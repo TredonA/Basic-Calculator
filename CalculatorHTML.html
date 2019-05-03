@@ -3,9 +3,62 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="author" contents="Tredon Austin">
+    <meta name="description" contents="Mini calculator applet created with HTML, CSS, and vanilla Javascript">
+    <meta name="keywords" contents="Tredon Austin, Tredon, web development,
+          web design, math, calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CalculatorStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Trey's Basic Calculator</title>
 </head>
 <body>
-
+    <div id="topRow">
+        <header>Basic calculator</header>
+        <a href="https://github.com/TredonA" target="_blank" id="git-logo">
+            <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+    </div>
+    <section>
+        <div id="display">
+            <p id="display-value">4</p>
+        </div>
+        <div class="row">
+            <p class="function"><i>X<sup>2</sup></i></p>
+            <p class="function"><i>X<sup>a</sup></i></p>
+            <p class="function">√</p>
+            <p class="function"><i>1/X</i></p>
+        </div>
+        <div class="row">
+            <p class="function">CLEAR</p>
+            <p class="function">CLEAR ALL</p>
+            <p class="function">&#8592</p>
+            <p class="arithmetic">&#247</p>
+        </div>
+        <div class="row">
+            <p class="number">7</p>
+            <p class="number">8</p>
+            <p class="number">9</p>
+            <p class="arithmetic">x</p>
+        </div>
+        <div class="row">
+            <p class="number">4</p>
+            <p class="number">5</p>
+            <p class="number">6</p>
+            <p class="arithmetic">-</p>
+        </div>
+        <div class="row">
+            <p class="number">1</p>
+            <p class="number">2</p>
+            <p class="number">3</p>
+            <p class="arithmetic">+</p>
+        </div>
+        <div class="row">
+            <p class="function">&#177;</p>
+            <p class="number">0</p>
+            <p class="function">.</p>
+            <p class="arithmetic">=</p>
+        </div>
+    </section>
 </body>
 </html>
